@@ -1,0 +1,64 @@
+
+.border-container {
+  border-bottom: 1px solid rgb(190, 190, 190);
+}
+
+/* navigation styles for small breakpoints and above */
+.nav-container {
+  height: 60px;
+}
+
+
+
+/* expanding the row to take the full height of the nav-conntainer */
+.navrow {
+  height: 100%;
+}
+.myname {
+  background-color: #4aaaa5;
+  height: 100%;
+  color: white;
+}
+
+.nav-name {
+  font-size: 1.4rem;
+  padding: 0 3px;
+  
+}
+
+.nav-link {
+  padding: 0 7px;
+  color: rgb(190, 190, 190);
+  font-weight: 400;
+}
+
+.nav-item:not(:last-of-type) {
+  border-right: 1px solid rgb(190, 190, 190);
+}
+
+/* navigation styles for small breakpoint and below */
+
+.small-nav {
+  height: 85px;
+  border-bottom: 1px solid rgb(190, 190, 190);
+}
+.small-nav-header {
+  height: 60%;
+  background-color: #4aaaa5;
+}
+
+.small-nav-list {
+  height: 40%;
+}
+
+.small-nav-link {
+  padding: 0 7px;
+  color: rgb(190, 190, 190);
+  font-size: .75rem;
+  font-weight: 500;
+}
+
+.small-nav-name {
+  font-size: 1.25rem;
+  color: white;
+}
