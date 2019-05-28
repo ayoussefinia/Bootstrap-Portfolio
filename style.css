@@ -1,6 +1,11 @@
 
 .border-container {
-  border-bottom: 1px solid rgb(190, 190, 190);
+  border-bottom: 1.35px solid rgb(190, 190, 190);
+}
+
+.body-bg {
+  background-image: url(images/psychedelic_pattern_@2X.png);
+  height: 100vh;
 }
 
 /* navigation styles for small breakpoints and above */
@@ -61,4 +66,40 @@
 .small-nav-name {
   font-size: 1.25rem;
   color: white;
+}
+
+/* styles for the about me description section */
+.about-me-section {
+  margin-top: 2rem;
+}
+.about-me-title {
+  color:#4aaaa5;
+  font-size: 1.6rem;
+}
+
+.about-me-description-box {
+  color: rgb(190, 190, 190);
+  line-height: 2rem;
+}
+
+/* .about-me-description {
+  width: 100%;
+} */
+
+.footer {
+  height: 60px;
+  background-color: gray;
+  border-top: 2.5px solid #4aaaa5;
+  color: white;
+}
+
+
+/* =============== styles for the contact page ===================== */
+
+.about-me-section-contact {
+  color: rgb(190, 190, 190);
+}
+
+.form-control {
+  color: rgb(190, 190, 190);
 }

@@ -9,8 +9,8 @@
   <link rel="stylesheet" href="style.css">
   <title>Document</title>
 </head>
-<body>
-  <div class="border-container"> <!--added to allow a bottom border that spans the full screen-->
+<body class="body-bg d-flex flex-column h-100vh">
+  <div class="border-container bg-white"> <!--added to allow a bottom border that spans the full screen-->
     <div class="d-sm-block d-none container p-0">
       <div class="row justify-content-center nav-container">
         <div class="col-lg-9 col-md-12 col-sm-12"> <!--centering on the middle 3/4 of page -->
@@ -27,10 +27,10 @@
                         <a class="nav-link active" href="#">About</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Portfolio</a>
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="contact.html">Contact</a>
                       </li>
                     </ul>
               </div>
@@ -47,7 +47,7 @@
     <h1 class="small-nav-name m-0">Alex Youssefinia</h1>
   </div>
   
-  <div class="d-flex d-sm-none small-nav-list justify-content-center align-items-center">
+  <div class="d-flex d-sm-none small-nav-list justify-content-center align-items-center bg-white">
       <ul class="nav">
           <li class="nav-item">
             <a class="small-nav-link active" href="#">About</a>
@@ -60,7 +60,37 @@
           </li>
         </ul>
   </div>
-
 </div>
+
+
+<div class="row justify-content-center mb-5">
+  <div class="col-lg-9 ">
+      <div class="container bg-white about-me-section">
+          <div class="row justify-content-center">
+            <div class="col-lg-9">
+              <h1 class="about-me-title mt-3 mb-0">About Me</h1>
+            </div>
+          </div>
+          <hr>
+          <div class="row about-me-description-box">
+            <div class="col-lg-12">
+              <img src="https://via.placeholder.com/150" alt="" class="float-left mr-3">
+              <p class="about-me-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, minus. Eligendi itaque porro qui. Maxime, quia laudantium aperiam, quas at perferendis quasi beatae adipisci molestias quos animi, aliquam eaque tempore? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro, aliquam reiciendis voluptas impedit molestiae voluptate explicabo ad assumenda facere iste eos sint velit commodi. Corrupti iure repellat perspiciatis ipsa excepturi Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, magnam ut voluptate dolores expedita animi sunt eum iure eius aliquam vero ab pariatur omnis impedit, consequatur ad! Temporibus, eveniet excepturi.</p>
+            </div>
+        
+          </div>
+        </div>
+
+
+
+  </div>
+</div>
+
+<footer class="footer mt-auto d-flex justify-content-center align-items-center">
+    <div class="row">
+      <div class="col-lg-12">&#169 copywright</div>
+    </div>
+</footer>
 </body>
+
 </html>
