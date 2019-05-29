@@ -4,7 +4,7 @@
 }
 
 .body-bg {
-  background-image: url(images/psychedelic_pattern_@2X.png);
+  background-image: url(psychedelic_pattern_@2X.png);
   height: 100vh;
 }
 
@@ -72,6 +72,7 @@
 /* styles for the about me description section */
 .about-me-section {
   margin-top: 2rem;
+  border: 1px solid rgb(190, 190, 190);
 }
 .about-me-title {
   color:#4aaaa5;
